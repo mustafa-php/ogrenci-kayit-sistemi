@@ -1,0 +1,304 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background: #364a57;
+  color: white !important;
+  min-height: 100vh;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+input,
+select,
+textarea {
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1.5rem;
+  margin: 0.3rem 0;
+}
+
+textarea {
+  height: 10rem;
+  resize: none;
+  font-size: 1.1rem;
+  padding: 0.5rem !important;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgb(255, 255, 255, 0.5);
+}
+
+.cikis {
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+  line-height: 0%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background: #ff2424;
+}
+
+.pencere {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(54, 74, 87, 0.9);
+  z-index: 100;
+}
+
+.giris_form {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  background: #1d2d3b;
+  width: 25rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.giris_form input {
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  outline: none;
+  margin: 0.3rem 0;
+  padding: 0.5rem 1.5rem;
+}
+
+.bas {
+  flex: 0 0 auto;
+  background: #273846;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.ana_govde {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.menu {
+  flex: 0 0 auto;
+  width: 12rem;
+  background: #1d2d3b;
+  padding: 1rem;
+}
+
+.govde {
+  flex: 1 0 auto;
+}
+
+.menu button {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.menu button.alt-btn {
+  margin: 0.2rem 0;
+}
+
+.islem_btn button {
+  line-height: 0%;
+  padding: 0.5rem;
+}
+
+.lis_bs {
+  background: #1d2d3b;
+  filter: drop-shadow(0 1px 1px #161616);
+}
+
+.lis_oge {
+  background: #273846;
+}
+
+.lis_bs,
+.lis_oge {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem;
+}
+
+.kurs_listesi .lis_bs div:nth-child(1),
+.kurs_listesi .lis_oge div:nth-child(1) {
+  flex: 0 0 auto;
+  width: 10%;
+}
+
+.kurs_listesi .lis_bs div:nth-child(2),
+.kurs_listesi .lis_oge div:nth-child(2) {
+  flex: 0 0 auto;
+  width: 60%;
+}
+
+.kurs_listesi .lis_bs div:nth-child(3),
+.kurs_listesi .lis_oge div:nth-child(3) {
+  flex: 0 0 auto;
+  width: 20%;
+}
+
+.kurs_listesi .lis_bs div:nth-child(4),
+.kurs_listesi .lis_oge div:nth-child(4) {
+  flex: 0 0 auto;
+  width: 10%;
+}
+
+.ogrenci_listesi .lis_bs div:nth-child(1),
+.ogrenci_listesi .lis_oge div:nth-child(1) {
+  flex: 0 0 auto;
+  width: 10%;
+}
+
+.ogrenci_listesi .lis_bs div:nth-child(2),
+.ogrenci_listesi .lis_oge div:nth-child(2) {
+  flex: 0 0 auto;
+  width: 20%;
+}
+
+.ogrenci_listesi .lis_bs div:nth-child(3),
+.ogrenci_listesi .lis_oge div:nth-child(3) {
+  flex: 0 0 auto;
+  width: 10%;
+}
+
+.ogrenci_listesi .lis_bs div:nth-child(4),
+.ogrenci_listesi .lis_oge div:nth-child(4) {
+  flex: 0 0 auto;
+  width: 10%;
+}
+
+.ogrenci_listesi .lis_bs div:nth-child(5),
+.ogrenci_listesi .lis_oge div:nth-child(5) {
+  flex: 0 0 auto;
+  width: 10%;
+}
+
+.ogrenci_listesi .lis_bs div:nth-child(6),
+.ogrenci_listesi .lis_oge div:nth-child(6) {
+  flex: 0 0 auto;
+  width: 20%;
+}
+
+.ogrenci_listesi .lis_bs div:nth-child(7),
+.ogrenci_listesi .lis_oge div:nth-child(7) {
+  flex: 0 0 auto;
+  width: 10%;
+}
+
+.ogrenci_listesi .lis_bs div:nth-child(8),
+.ogrenci_listesi .lis_oge div:nth-child(8) {
+  flex: 0 0 auto;
+  width: 10%;
+}
+
+.ders_listesi .lis_bs div:nth-child(1),
+.ders_listesi .lis_oge div:nth-child(1) {
+  flex: 0 0 auto;
+  width: 30%;
+}
+
+.ders_listesi .lis_bs div:nth-child(2),
+.ders_listesi .lis_oge div:nth-child(2) {
+  flex: 0 0 auto;
+  width: 30%;
+}
+
+.ders_listesi .lis_bs div:nth-child(3),
+.ders_listesi .lis_oge div:nth-child(3) {
+  flex: 0 0 auto;
+  width: 20%;
+}
+
+.ders_listesi .lis_bs div:nth-child(4),
+.ders_listesi .lis_oge div:nth-child(4) {
+  flex: 0 0 auto;
+  width: 10%;
+}
+
+.ders_listesi .lis_bs div:nth-child(5),
+.ders_listesi .lis_oge div:nth-child(5) {
+  flex: 0 0 auto;
+  width: 10%;
+}
+
+.kurs_ekle,
+.ogrenci_form,
+.ders_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+.kurs_ekle form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0 0 auto;
+}
+
+.kurs_ekle form input {
+  flex: 1 0 auto;
+  width: auto;
+}
+
+.kurs_ekle form button {
+  flex: 0 0 auto;
+  width: max-content;
+  margin-left: 10px;
+}
+
+.ogrenci_form form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 50rem;
+}
+
+.ogrenci_form form > * {
+  flex: 0 0 auto;
+  width: 48%;
+}
+
+.ogrenci_form form button {
+  height: max-content !important;
+}
+
+.ders_form form {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ders_form form input {
+  width: 100%;
+}
+
+.ders_form form button {
+  width: 50%;
+}
